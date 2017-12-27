@@ -7,7 +7,31 @@ body, html{
   line-height:1.8em;
   color:#666;
 }
+a:link {
+    text-decoration: none;
+    color: white;
+}
 
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+.navbar{
+  text-align: right;
+  background-color: #bbcdeb;
+  font-family:"Lato", sans-serif;
+  text-decoration-color: #fff;
+}
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
